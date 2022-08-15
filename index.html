@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bookmark</title>
+        <meta name="description" content=" visit our site">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="contaniar-fluid   p-5 m-auto">
+            <div class="row  w-75 m-auto text-center bg-light p-5">
+                <h1 class="p-2">Bookmark your favorite sites</h1>
+                <label for="Site Name" class="p-2" >Site Name</label>
+                <input type="text" class="form-control p-2 "id="siteName" placeholder="Bookmark Name">
+               <div id="nameAlert" class="alert alert-danger mt-1 p-3 d-none "> <p>Name must be one words</p> </div>
+                <label for="Site URL" class="p-2" >Site URL</label>
+                <input type="text" id="siteUrl" class="form-control p-2 mb-3 " placeholder="Website URL">
+                <div id="urlAlert" class="alert alert-danger mt-1 p-3 d-none "> <p>url is invalid</p> </div>
+                <button id="submitBtn" class="btn  btn-primary m-auto w-25" disabled>subtim</button>
+                <input class="search my-2 form-control" id="search" type="text" placeholder="Search by name">
+                <table class="mt-5">
+                    <tbody id="tableBody" ></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- <button class="btn btn-primary" >visit</button>
+   <button class="btn btn-danger" >delet</button> -->
+
+        
+        <script src="js/bootstrap.bundle.min.js" ></script>
+        <script src="js/all.min.js" ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
